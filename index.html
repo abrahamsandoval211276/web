@@ -1,0 +1,240 @@
+<!DOCTYPE html><!--Tipo de documento-->
+<html lang="es"><!--Lenguaje de la pagina-->
+    <head>
+        <meta charset="UTF-8"><!--te permite usar todo el conjunto de caracteres como emojis, acentos o simbolos en la pagina-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--viewport=mostrar la pagina en una ventana del navegador, el content=width=device/width es que se pueda ver la pagina en celulares o en formatos mas pequenos, por ultimo es para hacer la tipografia mas grande para personas con problemas de vista-->
+        <title>Bitacora de Abraham</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="img/logo peque.ico">
+    </head>
+    <body>
+        <header>
+            <!--menus de arriba-->
+            <a class="b1" href="#lista1">LISTA NO ORDENADA</a>
+            <a class="b1" href="#lista2">LISTA ORDENADA</a>
+            <a class="b1" href="#img1">IMAGEN LOCAL</a>
+            <a class="b1" href="#img2">IMAGEN DE INTERNET</a>
+            <a class="b1" href="#hiper">BOTON DE HIPERTEXTO</a>
+            <a class="b1" href="#map">MAPA IFRAME</a>
+            <a class="b1" href="#vid">VIDEO IFRAME</a>
+            <a class="b1" href="#section">SECTION</a>
+            <a class="b1" href="#lorem">TEXTO FALSO</a>
+            <a class="b1" href="#dec">DECORACIÓN</a>
+            <a class="b1" href="#tabla">TABLA</a>
+            <a class="b1" href="#input">FORMULARIO</a>
+            <a class="b1" href="#ani">ANIMACIÓN</a>
+            <a class="b1" href="#show">SLIDESHOW</a>
+            <a class="b1" href="#span">SPAN</a>
+            <a class="b1" href="#hov">:HOVER</a>
+            <a class="b1" href="#footer">FOOTER</a>
+            <a class="b1" href="contactos.html">CONTACTOS</a>
+        </header>
+        <div class="portada"><!--agrupacion de elemenotos es un div que se use para elementos iguales solo con informacion diferente-->
+            <img id="imgpot" src="https://static.vecteezy.com/system/resources/previews/044/876/360/non_2x/cat-with-glasses-meme-sticker-tshirt-illustration-free-png.png">
+        <h1>Bitacora de Abraham <br> es un titulo grande</h1>
+        </div>
+        <h6>Esto es un titulo muy pequeño, hay 6 tipos de h1...h6</h6>
+        <p class="sub">LISTAS</p>
+        <div id="lista1"><!-- div es un elemento individual que no se repite-->
+        <p>Esto es una lista no ordenada</p>
+        <ul>
+            <li>Elemento no ordenado</li>
+            <li>Elemento no ordenado</li>
+            <li>Elemento no ordenado</li>
+        </ul>
+        </div>
+        <div id="lista2">
+        <p>Esto es una lista ordenada, para elegir el numero con el que se empieza la lista agregar la palabra start y el numero con el que se inicia.</p>
+        <ol>
+            <li>Elemento ordenado</li>
+            <li>Elemento ordenado</li>
+            <li>Elemento ordenado</li>
+        </ol>
+    </div>
+    <div id="img1">
+        <p class="sub">IMAGEN LOCAL</p>
+        <img id="imguno" src="img/sddefault.jpg">
+    </div>
+    <div id="img2">
+        <p class="sub">IMAGEN DE INTERNET</p>
+        <img id="imgdos" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d100a766-4613-4138-b600-eb0cad3cdd39/dfmn0eg-97c48201-2621-41d6-9eb6-9527d1d2c552.jpg/v1/fill/w_736,h_736,q_75,strp/_food__el_pana_miguel_by_herna486759_dfmn0eg-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzM2IiwicGF0aCI6IlwvZlwvZDEwMGE3NjYtNDYxMy00MTM4LWI2MDAtZWIwY2FkM2NkZDM5XC9kZm1uMGVnLTk3YzQ4MjAxLTI2MjEtNDFkNi05ZWI2LTk1MjdkMWQyYzU1Mi5qcGciLCJ3aWR0aCI6Ijw9NzM2In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.BPzcPCDPDW-5pUGvlD6W_zsX6Up_pfSdtI4dokrMSPQ">
+    </div>
+    <div id="hiper">
+        <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyuP1auJNqZSYpig9w5Cq4veRnwf-AdvAwZg&s"><br>Boton para hipertexto</a>
+    </div>
+    <div id="map">
+        <p class="sub">Mapa de google maps con etiqueta IFRAME</p><!--Los Iframes son codigos de otras personas que podemos usar en nuestras paginas web-->
+        <iframe id="mp" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8065927.8765833685!2d-80.31522707384376!3d-9.204760044426054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c850c05914f5%3A0xf29e011279210648!2zUGVyw7o!5e0!3m2!1ses-419!2smx!4v1739810907971!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div id="vid">
+        <p class="sub">Video de Youtube con etiqueta IFRAME</p>
+        <iframe id="vd" width="560" height="315" src="https://www.youtube.com/embed/e-tEZ2H5tF8?si=VX_m6chA84NTTrvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <section id="section"><!--es una seccion una parte de la pagina-->
+        <p>Ejemplo de section y article</p>
+        <article> <!--Partes de la seccion-->
+            <img class="article" src="https://i.pinimg.com/736x/30/c3/73/30c373884d478ba2ce2bc91aaa81b3dc.jpg" alt="gato riendose">
+        </article>
+        <article>
+            <img class="article" src="https://i.pinimg.com/236x/58/9e/14/589e1409b4bc80e0b5ba99538251d66c.jpg" alt="gato the rock">
+        </article>
+        <article>
+            <img class="article" src="https://i.pinimg.com/236x/05/49/86/05498664d54894f92c6523c50c1eb9e6.jpg" alt="gato loco">
+        </article>
+    </section>
+    <div id="lorem">
+        <p class="sub">Texto falso</p>
+        <div id="textfalso">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+    <div id="dec">
+        <p class="sub">Decoración</p>
+        <div id="dec1">
+            <p>Color Gradiante</p>
+
+        </div>
+        <div id="dec2">
+            <p>Borde</p>
+
+        </div>
+        <div id="dec3">
+            <p>Sombra</p>
+
+        </div>
+    </div>
+    <div id="tabla">
+    <p class="sub">Tabla</p>
+        <div class="tab">
+        <table>
+            <thead>
+                <tr>
+                   <th>Nombre</th>
+                   <th>Edad</th>
+                   <th>Ciudad</th>
+                </tr>                
+            </thead>
+            <tbody>
+                <tr>
+                   <td> Juan</td>
+                   <td>25</td>
+                   <td>Mexico</td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>30</td>
+                    <td>Buenos Aires</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+    <div id="input">
+    <p class="sub">Formulario</p>
+    <div class="int">
+        <form>
+            <label> Nombres:</label>
+            <input type="text" placeholder="Escribe tu nombre">
+
+            <label>Apellidos:</label>
+            <input type="text" placeholder="Escribe tu apellido">
+
+            <label>País</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="mx">México</option>
+                <option value="usa">Estados Unidos</option>
+            </select>
+
+            </select>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div id="ani">
+    <p class="sub">Animación</p>
+    </div>
+    <div class="anima">
+        <p class="txani">Mover</p>
+    </div>
+    <div class="anima2">
+        <p class="txani">Rotar</p>
+    </div>
+    <div class="anima3">
+        <p class="txani">Escalar</p>
+    </div>
+    
+
+    <div id="show">
+    <p class="sub">Slideshow</p>
+
+    <div class="wrapper">
+        <div class="slider" id="slider">
+          <ul class="slides">
+            <li class="slide" id="slide1">
+              <a href="#">
+                <img src="https://www.patasdacasa.com.br/sites/default/files/styles/article_detail_1200/public/2024-02/comedouro-automatico-para-gatos0.jpg.webp?itok=Ca_5dqfZ" alt="photo 1">
+              </a>
+            </li>
+            <li class="slide" id="slide2">
+              <a href="#">
+                <img src="https://www.patasencasa.com/sites/default/files/2024-07/meme-del-gato-riendo_0.jpg" alt="photo 2">
+              </a>
+            </li>
+            <li class="slide" id="slide3">
+              <a href="#">
+                <img src="https://preview.redd.it/silly-cat-memes-for-you-v0-6l9ihdcn423d1.jpg?width=640&crop=smart&auto=webp&s=81e67348702fbbea8609a94f599774d613eeba0e" alt="photo 3">
+              </a>
+            </li>
+            <li class="slide">
+                <a href="#">
+                <img src="https://www.patasdacasa.com.br/sites/default/files/styles/article_detail_1200/public/2024-02/comedouro-automatico-para-gatos0.jpg.webp?itok=Ca_5dqfZ" alt="photo 1">
+                </a>
+              </li>
+            </ul>
+            <ul class="slider-controler">
+              <li><a href="#slide1">&bullet;</a></li>
+              <li><a href="#slide2">&bullet;</a></li>
+              <li><a href="#slide3">&bullet;</a></li>
+            </ul>
+        </div>
+      </div>
+      </div>
+
+      <div id="span">
+      <p class="sub">etiqueta span</p>
+      <p>Este es un <span class="texto-carmesi">texto carmesí</span> dentro de otros.</p>
+      <p>
+        Un <span class="fondo-verde">color de fondo verde</span> recuerda perfectamente la belleza de la naturaleza.
+      </p>
+      <p>
+        Un estilo de fuente <span class="estilo-fuente">en cursiva</span> puede ser usado para dar énfasis a un texto.
+     </p>
+     <div class="span2">
+     <span class="mover">Me he movido con css</span>
+     <span class="mover">Me he movido con css</span>
+
+     <div class="caja"></div>
+     <div class="caja"></div>
+    </div>
+    </div>
+
+    <div id="hov">
+     <p class="sub">Ejemplo :hover</p>
+     <a class="hover" href="#">Intenta pasar el mouse sobre este enlace.</a>
+     <button class="boton">Pasame el mause</button>
+    </div>
+
+    <footer id="footer"><!--Una seccion de hasta abajo-->
+    <p class="sub">FOOTER</p>
+    <p class="foot">Autor: Abraham Sandoval Marquez</p>
+    <p class="foot">Matricula: 211276</p>
+    <p class="foot">Clase: Diseño Web</p>
+    <p class="foot">Grupo:C</p>
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+    </svg>
+
+    </footer>
+
+    </body>
+</html>

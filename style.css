@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body{
+    background-color: ghostwhite;
+}
+h1{
+    color: white;
+    font-size: 70px; /*Tamaño de la letra*/
+    font-family: "Bebas Neue", serif;
+    text-align: left;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 150px;
+    padding-right: 50px;
+}
+h6{
+    color: red;
+    font-family: "Quicksand", serif;
+    font-size: 16px;
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#imguno{
+    width: 700px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 9px 10px 29px -8px rgba(0,0,0,0.75);
+}
+.sub{
+    font-size: 40px;
+    font-family: "Bebas Neue", serif;
+    text-align: center;
+    background-color: rgb(20, 33, 61);
+    color: white;
+}
+p{
+    font-size: 20px;
+    font-family: "Quicksand", serif;
+    text-align: center;
+}
+ul{
+    font-size: 20px;
+    font-family: "Quicksand", serif;
+    text-align: center;
+    list-style: none;
+}
+ol{
+    font-size: 20px;
+    font-family: "Quicksand", serif;
+    text-align: center;
+}
+#imgdos{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 9px 10px 29px -8px rgba(0,0,0,0.75);
+}
+#textuno{
+font-size: 20px;
+    font-family: "Quicksand", serif;
+    text-align: left;
+}
+header{
+    font-size: 14px;
+    font-family: "Quicksand", serif;
+    font-style: bold;
+    text-align: center;
+    background-color: ghostwhite;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    margin-bottom: none;
+}
+.b1{
+    padding-left: 30px;
+}
+.portada{
+    background-color: rgb(252, 163, 17);
+    margin-top: none;
+    padding: 0%;
+    top: 60px;
+}
+#imgpot{
+    width: 500px;
+    height: auto;
+    float: right;
+    padding-right: 80px;
+
+}
+#mp{
+    box-shadow: 9px 10px 29px -8px rgba(0,0,0,0.75);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#vd{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 9px 10px 29px -8px rgba(0,0,0,0.75);
+}
+#hiper{
+    background-color: rgb(252, 163, 17);
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 50px;
+    font-family: "Quicksand", serif;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding-bottom: 20px;
+    box-shadow: 9px 10px 29px -8px rgba(0,0,0,0.75);
+    border-radius: 50px 50px 50px 50px;
+}
+
+section{
+    height: 300px;
+    width: 1100px;
+    background: linear-gradient(0deg,#ffed0c 0%, #fca311 80%);
+    margin-bottom: 50px;
+    border-radius: 25px 25px 25px 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.article{
+    width: 320px;
+    height: auto;
+    float: inline-start;
+    display: block;
+    padding-left: 120px;
+    padding-left: auto;
+
+}
+#textfalso{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#dec{
+    height: 410px;
+}
+#dec1{
+
+    height: 100px;
+    justify-content: center;
+    width: 200px;
+    padding-top: 10px;
+    background: linear-gradient(0deg,#ffed0c 0%, #fca311 80%);
+    margin-top: 50px;
+    margin-left: 30%;
+
+}
+#dec2{
+    height: 100px;
+    justify-content: center;
+    width: 200px;
+    background-color: #fca311;
+    border: 20px inset #f80000;
+    margin-top: -40px;
+    margin-left: 40%;
+
+
+}
+#dec3{
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding-top: 20px;
+    background-color: #ffcc24;
+    box-shadow: 24px 22px 17px -5px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 24px 22px 17px -5px rgba(0,0,0,0.54);
+    -moz-box-shadow: 24px 22px 17px -5px rgba(0,0,0,0.54);
+    margin-top: -60px;
+    margin-left: 53%;
+}
+.tab{
+    margin-left: 40%;
+    font-family: "Quicksand", serif;
+    text-align: center;
+}
+.int{
+    text-align: center;
+    font-family: "Quicksand", serif;
+}
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(20, 33, 61);
+    margin-top: 10px;
+}
+.foot{
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}
+svg{
+    color: white;
+    margin-left: 49%;
+}
+.txani{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 30px;
+}
+.anima{
+    width: 200px;
+    height: 200px;
+    background-color: #ffcc24;
+    animation: mover 2s infinite;/*Nombre de la animacion, tiempo, infinite*/
+    margin-left: 40%;
+    margin-bottom: 80px;
+}
+.anima2{
+    width: 200px;
+    height: 200px;
+    background-color: #ffcc24;
+    animation: rotar 2s infinite;/*Nombre de la animacion, tiempo, infinite*/
+    margin-left: 43%;
+    margin-bottom: 100px;
+}
+.anima3{
+    width: 200px;
+    height: 200px;
+    background-color: #ffcc24;
+    animation: escala 2s infinite;/*Nombre de la animacion, tiempo, infinite*/
+    margin-left: 43%;
+    margin-bottom: 50px;
+}
+@keyframes mover {
+    0% {
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes escala {
+    0% {
+        transform: scale(1);/*tamaño original*/
+    }
+    50%{
+        transform: scale(1.5);/*tamaño grande*/
+    }
+    100%{
+        transform: scale(1);/*tamaño original*/
+    }
+}
+
+@keyframes slide {
+	0% { transform: translateX(0); }
+	10% { transform: translateX(0); }
+
+	15% { transform: translateX(-100%); }
+	30% { transform: translateX(-100%); }
+
+	35% { transform: translateX(-200%); }
+	50% { transform: translateX(-200%); }
+
+	55% { transform: translateX(-300%); }
+	70% { transform: translateX(-300%); }
+
+	75% { transform: translateX(-400%); }
+	90% { transform: translateX(-400%); }
+
+	95% { transform: translateX(-500%); }
+	100% { transform: translateX(-500%); }
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.slider {
+	position: relative;
+}
+
+.slides {
+	position: relative;
+	display: flex;
+	overflow: hidden;
+}
+
+.slide {
+	width: 100vw;
+	flex-shrink: 0;
+	animation-name: slide;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.slides:hover .slide {
+	animation-play-state: paused;
+}
+
+.slide img {
+	width: 80%;
+	vertical-align: top;
+}
+
+.slide a {
+	width: 80%;
+	display: inline-block;
+	position: relative;
+}
+
+.slide:target {
+	animation-name: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 50;
+}
+
+.slider-controler {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	padding: 5px;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 100;
+}
+
+.slider-controler li {
+	margin: 0 0.5rem;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.slider-controler a {
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+	.slide {
+		width: 1200px;
+	}
+}
+
+.texto-carmesi {
+    color: crimson;
+}
+.fondo-verde {
+    background-color: #2ecc71;
+}
+.estilo-fuente {
+    font-style: italic;
+}
+
+.hover {
+    background-color: powderblue;
+    transition: background-color 0.5s;
+    font-family: "Quicksand", serif;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 30%;
+  }
+  
+  .hover:hover {
+    background-color: gold;
+  }
+
+.mover{
+    background-color: #2ecc71;
+    padding: 10px;
+    
+}
+
+.caja{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: #fca311;
+    margin: 10px;
+}
+.span2{
+    text-align: center
+}
+
+.boton{
+background-color: ;
+color: red;
+padding: 10px;
+transition: backgound-color 0.3s;
+
+}
+
+.boton:hover{
+background-color: #2ecc71;
+}
