@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+a{
+    color: black;
+    text-decoration: none;
+}
+header{
+    background-color: #E52528;
+    text-align: right;
+    height: 65px;
+    width: 100%;
+    padding-top: 25px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    color: white;
+}
+.head{
+    color: white;
+    padding-right: 70px;
+    
+}
+.imuno{
+    float: left;
+    width: 70px;
+    height: auto;
+    padding-left: 8%;
+   
+}
+.imp{
+    height: 350px;
+    width: auto;
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: escala 2s infinite;/*Nombre de la animacion, tiempo, infinite*/
+}
+@keyframes escala {
+    0% {
+        transform: scale(1);/*tamaño original*/
+    }
+    50%{
+        transform: scale(1.1);/*tamaño grande*/
+    }
+    100%{
+        transform: scale(1);/*tamaño original*/
+    }
+}
+.cd1{
+    margin-top: 10px;
+}
+h2{
+    font-family: "Alfa Slab One", serif;
+    text-align: center;
+}
+.cd2{
+    margin-top: 80px;
+    background-color: #ffee00;
+    height: 400px;
+    width: 450px;
+    padding: 30px;
+    box-shadow: 9px 10px 29px -8px rgba(0,0,0,0.75);
+    border-radius: 50px 50px 50px 50px;
+    margin-left: 10%;
+    float: left;
+}
+h3{
+    font-family: "Alfa Slab One", serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+.p1{
+    font-family: "Raleway", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: justify;
+
+}
+.im1{
+    height: 450px;
+    width: auto;
+    float: right;
+    margin-top: 80px;
+    margin-right: 10%;
+}
+.fn1{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(199, 199, 199);
+    margin-top: 60px;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.pr1{
+    background-color: #ffee00;
+    width: 100%;
+    height: 530px;
+}
+.im2{
+    height: 400px;
+    width: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 20%;
+    box-shadow: 9px 10px 29px -8px rgba(0,0,0,0.75);
+    border-radius: 20px 20px 20px 20px;
+    float: left;
+}
+.p2{
+    font-size: 70px;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    margin-top: 150px;
+    margin-left: 10%;
+    margin-right: 200px;
+    float: left;
+}
+.bt{
+    font-size: 30px;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10%;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px;
+    border: 5px inset #000000;
+}
+.p3{
+    font-family: "Alfa Slab One", serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#slideshow {
+   text-align: center;
+   overflow: hidden;
+   height: 510px;
+   width: 728px;
+   margin-bottom: 100px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+   
+.slide-wrapper {
+   width: 2912px;
+   animation: slide 18s ease infinite;
+}
+   
+.slide {
+   float: left;
+   height: 510px;
+   width: 728px;
+}
+   
+.slide:nth-child(1) { /*Elementos de una etiqueta dentro*/
+   background-color: rgb(255, 255, 255);
+}
+   
+.slide:nth-child(2) {
+   background-color: rgb(255, 255, 255);
+}
+   
+.slide:nth-child(3) {
+   background-color: rgb(255, 255, 255);
+}
+   
+.slide:nth-child(4) {
+   background-color: rgb(255, 255, 255);
+}
+  
+.slide:nth-child(5) {
+   background-color: rgb(255, 255, 255);
+}
+
+@keyframes slide {
+   20% {margin-left: 0px;}
+   30% {margin-left: -728px;}
+   50% {margin-left: -728px;}
+   60% {margin-left: -1456px;}
+   70% {margin-left: -1456px;}
+   80% {margin-left: -2184px;}
+   90% {margin-left: -2184px;}
+}
+.imgcarro{
+   height: 510px;
+   width: auto;
+}
+.p4{
+   font-family: "Alfa Slab One", serif;
+   font-size: 50px;
+   text-align: center;
+}
+.p5{
+   text-align: center;
+   font-family: "Raleway", sans-serif;
+   font-size: 20px;
+}
+.imgcc{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   height: 200px;
+   width: auto;
+}
